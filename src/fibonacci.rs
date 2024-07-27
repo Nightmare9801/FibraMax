@@ -2,6 +2,16 @@ use std::{str::FromStr, time::{Duration, Instant}};
 
 use num_bigint::BigUint;
 
+/// The function calculates the nth Fibonacci number iteratively in Rust.
+/// 
+/// Arguments:
+/// 
+/// * `n`: The function `nth_fibonacci` calculates the nth Fibonacci number. The parameter `n`
+/// represents the position of the Fibonacci number to be calculated.
+/// 
+/// Returns:
+/// 
+/// the nth Fibonacci number, where n is the input parameter.
 pub fn nth_fibonacci(n: u128) -> u128 {
     if n == 0 {
         return 0;
