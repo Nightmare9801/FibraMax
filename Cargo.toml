@@ -1,0 +1,8 @@
+[package]
+name = "fibramax"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+criterion = "0.5.1"
+num-bigint = "0.4.6"
